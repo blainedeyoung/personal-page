@@ -1,0 +1,41 @@
+@keyframes moveCloud {
+  from {
+    transform: translateX(0);
+  }
+  90% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-400%);
+    opacity: 0;
+  }
+}
+
+@keyframes moveWind {
+  from {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .25;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes enterFollowUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

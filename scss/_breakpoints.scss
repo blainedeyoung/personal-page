@@ -1,0 +1,130 @@
+@media all and (max-width: 1700px) and (min-width: 1501px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 1500px) and (min-width: 1221px) {
+  html {
+    font-size: 10px;
+  }
+  .appearingText {
+    font-size: 150%;
+  }
+  .aboutText {
+    font-size: 150%;
+  }
+}
+
+@media all and (max-width: 1220px) and (min-width: 1001px) {
+  html {
+    font-size: 10px;
+  }
+  .appearingText {
+    font-size: 150%;
+  }
+  .aboutText {
+    font-size: 150%;
+  }
+  .aboutPanel {
+    height: 10rem;
+    top: -10rem;
+  }
+}
+
+@media all and (max-width: 1000px) and (min-width: 801px){
+  html {
+    font-size: 10px;
+  }
+  .appearingText {
+    font-size: 150%;
+  }
+  .aboutText {
+    font-size: 150%;
+  }
+  .aboutPanel {
+    height: 12rem;
+    top: -12rem;
+  }
+}
+
+@media all and (max-width: 800px) and (min-width: 651px){
+  html {
+    font-size: 8px;
+  }
+  h1 {
+    font-size: 400%;
+  }
+  h3 {
+    font-size: 250%;
+  }
+  .appearingText {
+    font-size: 180%;
+  }
+  .aboutText {
+    font-size: 180%;
+  }
+  .aboutPanel {
+    position: relative;
+    top: 0;
+    height: 17rem;
+    transition: none !important;
+  }
+  .grassAndTrees:hover + .aboutPanel {
+    position: relative;
+  }
+}
+
+@media all and (max-width: 650px) and (min-width: 521px){
+  html {
+    font-size: 6px;
+  }
+  h1 {
+    font-size: 400%;
+  }
+  h3 {
+    font-size: 250%;
+  }
+  .appearingText {
+    font-size: 200%;
+  }
+  .aboutText {
+    font-size: 200%;
+  }
+  .aboutPanel {
+    position: relative;
+    top: 0;
+    height: 18rem;
+    transition: none !important;
+  }
+  .grassAndTrees:hover + .aboutPanel {
+    position: relative;
+  }
+}
+
+@media all and (max-width: 520px) {
+  html {
+    font-size: 5px;
+  }
+  h1 {
+    font-size: 400%;
+  }
+  h3 {
+    font-size: 250%;
+  }
+  .appearingText {
+    font-size: 200%;
+  }
+  .aboutText {
+    font-size: 200%;
+  }
+  .aboutPanel {
+    position: relative;
+    top: 0;
+    height: 21rem;
+    transition: none !important;
+  }
+  .grassAndTrees:hover + .aboutPanel {
+    position: relative;
+  }
+}
