@@ -3,128 +3,155 @@
     font-size: 12px;
   }
 }
-
 @media all and (max-width: 99.99em) and (min-width: 90em) {
   html {
     font-size: 10px;
   }
+
   .appearingText {
     font-size: 150%;
   }
+
   .aboutText {
     font-size: 150%;
   }
 }
-
 @media all and (max-width: 89.99em) and (min-width: 80em) {
   html {
     font-size: 10px;
   }
+
   .appearingText {
     font-size: 150%;
   }
+
   .aboutText {
     font-size: 150%;
   }
+
   .aboutPanel {
     height: 10rem;
     top: -10rem;
   }
 }
-
-@media all and (max-width: 79.99em) and (min-width: 75em){
+@media all and (max-width: 79.99em) and (min-width: 75em) {
   html {
     font-size: 10px;
   }
+
   .appearingText {
     font-size: 150%;
   }
+
   .aboutText {
     font-size: 150%;
   }
+
   .aboutPanel {
     height: 12rem;
     top: -12rem;
   }
 }
-
-@media all and (max-width: 74.99em) and (min-width: 70em){
+@media all and (max-width: 74.99em) and (min-width: 70em) {
   html {
     font-size: 8px;
   }
+
   h1 {
     font-size: 400%;
   }
+
   h3 {
     font-size: 250%;
   }
+
   .appearingText {
     font-size: 180%;
   }
+
   .aboutText {
     font-size: 180%;
   }
+
   .aboutPanel {
     position: relative;
     top: 0;
     height: 17rem;
     transition: none !important;
   }
+
   .grassAndTrees:hover + .aboutPanel {
     position: relative;
   }
 }
-
-@media all and (max-width: 69.99em) and (min-width: 60em){
+@media all and (max-width: 69.99em) and (min-width: 60em) {
   html {
     font-size: 6px;
   }
+
   h1 {
     font-size: 400%;
   }
+
   h3 {
     font-size: 250%;
   }
+
   .appearingText {
     font-size: 200%;
   }
+
   .aboutText {
     font-size: 200%;
   }
+
   .aboutPanel {
     position: relative;
     top: 0;
     height: 18rem;
     transition: none !important;
   }
+
   .grassAndTrees:hover + .aboutPanel {
     position: relative;
   }
 }
-
 @media all and (max-width: 59.99em) {
   html {
     font-size: 5px;
   }
+
   h1 {
     font-size: 400%;
   }
+
   h3 {
-    font-size: 250%;
+    font-size: 350%;
   }
+
   .appearingText {
-    font-size: 200%;
+    display: inline;
+    margin: 0 20%;
+    text-align: left;
+    font-size: 300%;
   }
+
   .aboutText {
-    font-size: 200%;
+    font-size: 300%;
   }
+
   .aboutPanel {
     position: relative;
     top: 0;
     height: 21rem;
     transition: none !important;
   }
-  .grassAndTrees:hover + .aboutPanel {
-    position: relative;
+
+  .grassAndTrees {
+    height: 16rem;
+
+    &:hover + .aboutPanel {
+      position: relative;
+    }
   }
 }

@@ -26,12 +26,14 @@ body {
 .cloud {
   @include animation-image;
   z-index: 1;
-  animation: moveCloud 10s linear .8s;
+  animation: moveCloud 10s linear 0.8s;
   animation-fill-mode: forwards;
+
   &#cloud1 {
     left: 20rem;
     top: 3rem;
   }
+
   &#cloud2 {
     left: 80rem;
     top: 5rem;
@@ -43,10 +45,12 @@ body {
   opacity: 0;
   animation: moveWind 6s linear;
   animation-fill-mode: forwards;
+
   &#wind1 {
     left: 31rem;
     top: 3rem;
   }
+
   &#wind2 {
     left: 91rem;
     top: 5rem;
@@ -78,12 +82,12 @@ h3 {
   text-align: center;
 }
 
- .appearingText {
-   opacity: 0;
-   animation: enterFollowUp 1s linear 10.5s;
-   animation-fill-mode: forwards;
+.appearingText {
+  opacity: 0;
+  animation: enterFollowUp 1s linear 10.5s;
+  animation-fill-mode: forwards;
 }
- 
+
 .grassAndTrees:hover + .aboutPanel {
   top: 0;
 }
@@ -145,14 +149,17 @@ h3 {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 15rem;
+
   & p {
     padding: 0 3rem;
   }
+
   & a {
     color: inherit;
     transition: color 1s;
     transition: box-shadow 1.5s ease-in 0.25s;
     transition: background-color 1s;
+
     &:hover {
       color: blue;
       box-shadow: 0 0 20px 20px blue;
@@ -160,6 +167,4 @@ h3 {
     }
   }
 }
-
-
 @import 'breakpoints';
