@@ -1,60 +1,62 @@
 @media all and (max-width: 107em) and (min-width: 100em) {
   html {
-    font-size: 12px;
+    font-size: 12px !important;
+  }
+  
+  .appearingText {
+    font-size: 125%;
+  }
+
+  .aboutPanel {
+    font-size: 125%;
   }
 }
 @media all and (max-width: 99.99em) and (min-width: 90em) {
   html {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .appearingText {
     font-size: 150%;
   }
 
-  .aboutText {
+  .aboutPanel {
     font-size: 150%;
   }
 }
 @media all and (max-width: 89.99em) and (min-width: 80em) {
   html {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .appearingText {
     font-size: 150%;
   }
 
-  .aboutText {
-    font-size: 150%;
-  }
-
   .aboutPanel {
+    font-size: 150%;
     height: 10rem;
     top: -10rem;
   }
 }
 @media all and (max-width: 79.99em) and (min-width: 75em) {
   html {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .appearingText {
     font-size: 150%;
   }
 
-  .aboutText {
-    font-size: 150%;
-  }
-
   .aboutPanel {
+    font-size: 150%;
     height: 12rem;
     top: -12rem;
   }
 }
 @media all and (max-width: 74.99em) and (min-width: 70em) {
   html {
-    font-size: 8px;
+    font-size: 8px !important;
   }
 
   h1 {
@@ -69,11 +71,8 @@
     font-size: 180%;
   }
 
-  .aboutText {
-    font-size: 180%;
-  }
-
   .aboutPanel {
+    font-size: 180%;
     position: relative;
     top: 0;
     height: 17rem;
@@ -86,7 +85,7 @@
 }
 @media all and (max-width: 69.99em) and (min-width: 60em) {
   html {
-    font-size: 6px;
+    font-size: 6px !important;
   }
 
   h1 {
@@ -101,11 +100,8 @@
     font-size: 200%;
   }
 
-  .aboutText {
-    font-size: 200%;
-  }
-
   .aboutPanel {
+    font-size: 200%;
     position: relative;
     top: 0;
     height: 18rem;
@@ -118,7 +114,7 @@
 }
 @media all and (max-width: 59.99em) and (min-width: 1em) {
   html {
-    font-size: 5px;
+    font-size: 5px !important;
   }
 
   h1 {
@@ -129,26 +125,26 @@
     font-size: 350%;
   }
 
+  .follow-up {
+      height: 8rem;
+      width: 100%;
+  }
+  
   .appearingText {
     display: inline;
-    margin: 0 20%;
-    text-align: left !important;
-    font-size: 300% !important;
-  }
-
-  .aboutText {
-    font-size: 300%;
+    font-size: 250%;
   }
 
   .aboutPanel {
+    font-size: 250%;
     position: relative;
     top: 0;
     height: 21rem;
     transition: none !important;
   }
 
-  .grassAndTrees {
-    height: 16rem;
+  #grassAndTrees {
+    height: 18rem;
     &:hover + .aboutPanel {
       position: relative;
     }
