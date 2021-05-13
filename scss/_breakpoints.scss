@@ -116,7 +116,7 @@
     position: relative;
   }
 }
-@media all and (max-width: 59.99em) {
+@media all and (max-width: 59.99em) and (min-width: 1em) {
   html {
     font-size: 5px;
   }
@@ -132,8 +132,8 @@
   .appearingText {
     display: inline;
     margin: 0 20%;
-    text-align: left;
-    font-size: 300%;
+    text-align: left !important;
+    font-size: 300% !important;
   }
 
   .aboutText {
@@ -149,7 +149,6 @@
 
   .grassAndTrees {
     height: 16rem;
-
     &:hover + .aboutPanel {
       position: relative;
     }
