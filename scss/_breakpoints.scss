@@ -10,7 +10,12 @@
   .aboutPanel {
     font-size: 125%;
   }
+  
+  .bottom {
+    font-size: 125%;
+  }
 }
+
 @media all and (max-width: 99.99em) {
   html {
     font-size: 10px !important;
@@ -23,7 +28,12 @@
   .aboutPanel {
     font-size: 150%;
   }
+  
+  .bottom {
+    font-size: 150%;
+  }
 }
+
 @media all and (max-width: 89.99em) {
   html {
     font-size: 10px !important;
@@ -38,7 +48,12 @@
     height: 10rem;
     top: -10rem;
   }
+  
+  .bottom {
+    font-size: 150%;
+  }
 }
+
 @media all and (max-width: 79.99em) {
   html {
     font-size: 10px !important;
@@ -53,7 +68,12 @@
     height: 12rem;
     top: -12rem;
   }
+  
+  .bottom {
+    font-size: 150%;
+  }
 }
+
 @media all and (max-width: 74.99em) {
   html {
     font-size: 8px !important;
@@ -82,7 +102,12 @@
   .grassAndTrees:hover + .aboutPanel {
     position: relative;
   }
+  
+  .bottom {
+    font-size: 180%;
+  }
 }
+
 @media all and (max-width: 69.99em) {
   html {
     font-size: 6px !important;
@@ -111,7 +136,12 @@
   .grassAndTrees:hover + .aboutPanel {
     position: relative;
   }
+  
+  .bottom {
+    font-size: 200%;
+  }
 }
+
 @media all and (max-width: 59.99em) {
   html {
     font-size: 5px !important;
@@ -139,7 +169,7 @@
     font-size: 225%;
     position: relative;
     top: 0;
-    min-height: 30rem;
+    min-height: 35rem;
     transition: none !important;
   }
 
@@ -148,5 +178,9 @@
     &:hover + .aboutPanel {
       position: relative;
     }
+  }
+  
+  .bottom {
+    font-size: 225%;
   }
 }
