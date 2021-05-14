@@ -173,9 +173,9 @@ p {
 
 .skillList {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  width: 100%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  width: 99%;
   padding: 3rem; }
 
 .skill {
@@ -185,12 +185,11 @@ p {
 .skillImage {
   height: 8rem;
   width: 8rem; }
+  .skillImage#mongoDbLogo {
+    width: 12rem; }
 
 .skillLabel {
   margin-top: 1rem; }
-
-#mongoDbLogo {
-  width: 12rem; }
 
 .bottom {
   display: -webkit-box;
@@ -214,7 +213,7 @@ p {
   background-repeat: no-repeat;
   height: 15rem; }
   .bottom p {
-    padding: 0 3rem; }
+    padding: 3rem; }
   .bottom a {
     color: inherit;
     -webkit-transition: color 1s;
@@ -315,31 +314,41 @@ p {
   html {
     font-size: 5px !important; }
 
+  .wind#wind1 {
+    left: 48%; }
+  .wind#wind2 {
+    left: 88%; }
+
   h3 {
     font-size: 350%; }
 
   .follow-up {
-    height: 8rem;
+    height: 10rem;
     width: 100%;
     text-align: left; }
 
   .appearingText {
     position: absolute;
     top: 35rem;
-    left: 12rem;
+    left: 8rem;
     width: 75%;
     font-size: 225%;
     padding: 0; }
 
   .aboutPanel {
     font-size: 225%;
-    min-height: 28rem; }
+    min-height: 30rem; }
 
   #grassAndTrees {
-    height: 18rem; }
+    height: 16rem; }
     #grassAndTrees:hover + .aboutPanel {
       position: relative; }
 
+  .skillList {
+    padding: 0; }
+
   .bottom {
-    min-height: 18rem;
-    font-size: 225%; } }
+    min-height: 20rem;
+    font-size: 225%; }
+    .bottom p {
+      padding: 1rem; } }

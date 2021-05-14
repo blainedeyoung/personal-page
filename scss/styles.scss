@@ -123,9 +123,9 @@ p {
 
 .skillList {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  width: 100%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  width: 99%;
   padding: 3rem;
 }
 
@@ -137,14 +137,13 @@ p {
 .skillImage {
   height: 8rem;
   width: 8rem;
+  &#mongoDbLogo {
+    width: 12rem;
+  }
 }
 
 .skillLabel {
   margin-top: 1rem;
-}
-
-#mongoDbLogo {
-  width: 12rem;
 }
 
 .bottom {
@@ -161,7 +160,7 @@ p {
   height: 15rem;
 
   & p {
-    padding: 0 3rem;
+    padding: 3rem;
   }
 
   & a {

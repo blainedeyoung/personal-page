@@ -117,13 +117,23 @@
   html {
     font-size: 5px !important;
   }
-
+  
+  .wind {
+    &#wind1 {
+      left: 48%;
+    }
+  
+    &#wind2 {
+      left: 88%;
+    }
+  }
+  
   h3 {
     font-size: 350%;
   }
 
   .follow-up {
-      height: 8rem;
+      height: 10rem;
       width: 100%;
       text-align: left;
   }
@@ -131,7 +141,7 @@
   .appearingText {
     position: absolute;
     top: 35rem;
-    left: 12rem;
+    left: 8rem;
     width: 75%;
     font-size: 225%;
     padding: 0;
@@ -139,18 +149,25 @@
 
   .aboutPanel {
     font-size: 225%;
-    min-height: 28rem;
+    min-height: 30rem;
   }
 
   #grassAndTrees {
-    height: 18rem;
+    height: 16rem;
     &:hover + .aboutPanel {
       position: relative;
     }
   }
   
+  .skillList {
+    padding: 0;
+  }
+    
   .bottom {
-    min-height: 18rem;
+    min-height: 20rem;
     font-size: 225%;
+    & p {
+      padding: 1rem;
+    }
   }
 }
