@@ -1,15 +1,14 @@
 @import 'animations';
 @import 'mixins';
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   font-family: sans-serif;
   font-size: 16px;
   overflow-x: hidden;
+}
+
+body {
+  margin: 0;
 }
 
 .animation {
@@ -69,11 +68,13 @@ h1 {
   font-size: 300%;
   font-family: "Galada", cursive;
   font-weight: normal;
+  margin: 0;
 }
 
 h3 {
   font-size: 200%;
   font-family: "Montserrat";
+  margin: 0;
 }
 
 .follow-up {
@@ -102,7 +103,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 9rem;
+  min-height: 9rem;
   background-color: #D0D5DB;
   position: absolute;
   top: -9rem;
@@ -111,8 +112,12 @@ h3 {
   padding: 0 3rem;
 }
 
+p {
+  margin: 0;
+}
+
 .aboutPanelText {
-  padding: 3rem;
+  padding: 3rem !important;
 }
 
 .skillList {

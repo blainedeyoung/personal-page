@@ -58,14 +58,13 @@
     opacity: 0; }
   to {
     opacity: 1; } }
-* {
-  margin: 0;
-  padding: 0; }
-
 html {
   font-family: sans-serif;
   font-size: 16px;
   overflow-x: hidden; }
+
+body {
+  margin: 0; }
 
 .animation {
   height: 18rem;
@@ -118,11 +117,13 @@ html {
 h1 {
   font-size: 300%;
   font-family: "Galada", cursive;
-  font-weight: normal; }
+  font-weight: normal;
+  margin: 0; }
 
 h3 {
   font-size: 200%;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  margin: 0; }
 
 .follow-up {
   height: 4rem;
@@ -154,7 +155,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 9rem;
+  min-height: 9rem;
   background-color: #D0D5DB;
   position: absolute;
   top: -9rem;
@@ -162,6 +163,12 @@ h3 {
   transition: top 1s;
   z-index: 2;
   padding: 0 3rem; }
+
+p {
+  margin: 0; }
+
+.aboutPanelText {
+  padding: 3rem !important; }
 
 .skillList {
   display: grid;
@@ -231,6 +238,9 @@ h3 {
     font-size: 125%; }
 
   .aboutPanel {
+    font-size: 125%; }
+
+  .bottom {
     font-size: 125%; } }
 @media all and (max-width: 99.99em) {
   html {
@@ -240,6 +250,9 @@ h3 {
     font-size: 150%; }
 
   .aboutPanel {
+    font-size: 150%; }
+
+  .bottom {
     font-size: 150%; } }
 @media all and (max-width: 89.99em) {
   html {
@@ -251,7 +264,10 @@ h3 {
   .aboutPanel {
     font-size: 150%;
     height: 10rem;
-    top: -10rem; } }
+    top: -10rem; }
+
+  .bottom {
+    font-size: 150%; } }
 @media all and (max-width: 79.99em) {
   html {
     font-size: 10px !important; }
@@ -262,7 +278,10 @@ h3 {
   .aboutPanel {
     font-size: 150%;
     height: 12rem;
-    top: -12rem; } }
+    top: -12rem; }
+
+  .bottom {
+    font-size: 150%; } }
 @media all and (max-width: 74.99em) {
   html {
     font-size: 8px !important; }
@@ -279,13 +298,16 @@ h3 {
   .aboutPanel {
     font-size: 180%;
     position: relative;
+    min-height: 12rem;
     top: 0;
-    height: 17rem;
     -webkit-transition: none !important;
     transition: none !important; }
 
   .grassAndTrees:hover + .aboutPanel {
-    position: relative; } }
+    position: relative; }
+
+  .bottom {
+    font-size: 180%; } }
 @media all and (max-width: 69.99em) {
   html {
     font-size: 6px !important; }
@@ -301,14 +323,13 @@ h3 {
 
   .aboutPanel {
     font-size: 200%;
-    position: relative;
-    top: 0;
-    height: 18rem;
-    -webkit-transition: none !important;
-    transition: none !important; }
+    min-height: 12rem; }
 
   .grassAndTrees:hover + .aboutPanel {
-    position: relative; } }
+    position: relative; }
+
+  .bottom {
+    font-size: 200%; } }
 @media all and (max-width: 59.99em) {
   html {
     font-size: 5px !important; }
@@ -329,13 +350,12 @@ h3 {
 
   .aboutPanel {
     font-size: 225%;
-    position: relative;
-    top: 0;
-    height: 26rem;
-    -webkit-transition: none !important;
-    transition: none !important; }
+    min-height: 25rem; }
 
   #grassAndTrees {
     height: 18rem; }
     #grassAndTrees:hover + .aboutPanel {
-      position: relative; } }
+      position: relative; }
+
+  .bottom {
+    font-size: 225%; } }
