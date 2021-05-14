@@ -29,12 +29,12 @@ body {
   animation-fill-mode: forwards;
 
   &#cloud1 {
-    left: 20rem;
+    left: 30%;
     top: 3rem;
   }
 
   &#cloud2 {
-    left: 80rem;
+    left: 70%;
     top: 5rem;
   }
 }
@@ -46,12 +46,12 @@ body {
   animation-fill-mode: forwards;
 
   &#wind1 {
-    left: 31rem;
+    left: 40%;
     top: 3rem;
   }
 
   &#wind2 {
-    left: 91rem;
+    left: 80%;
     top: 5rem;
   }
 }
@@ -87,6 +87,7 @@ h3 {
   opacity: 0;
   animation: enterFollowUp 1s linear 10.5s;
   animation-fill-mode: forwards;
+  padding: 0 25%;
 }
 
 .grassAndTrees:hover + .aboutPanel {
@@ -106,7 +107,7 @@ h3 {
   min-height: 9rem;
   background-color: #D0D5DB;
   position: absolute;
-  top: -9rem;
+  top: -12rem;
   transition: top 1s;
   z-index: 2;
   padding: 0 3rem;

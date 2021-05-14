@@ -16,7 +16,7 @@
   }
 }
 
-@media all and (max-width: 99.99em) {
+@media all and (max-width: 100em) {
   html {
     font-size: 10px !important;
   }
@@ -34,47 +34,21 @@
   }
 }
 
-@media all and (max-width: 89.99em) {
-  html {
-    font-size: 10px !important;
-  }
-
-  .appearingText {
-    font-size: 150%;
-  }
-
+@media all and (max-width: 90em) {
   .aboutPanel {
-    font-size: 150%;
     height: 10rem;
-    top: -10rem;
-  }
-  
-  .bottom {
-    font-size: 150%;
+    top: -13rem;
   }
 }
 
-@media all and (max-width: 79.99em) {
-  html {
-    font-size: 10px !important;
-  }
-
-  .appearingText {
-    font-size: 150%;
-  }
-
+@media all and (max-width: 80em) {
   .aboutPanel {
-    font-size: 150%;
     height: 12rem;
-    top: -12rem;
-  }
-  
-  .bottom {
-    font-size: 150%;
+    top: -14rem;
   }
 }
 
-@media all and (max-width: 74.99em) {
+@media all and (max-width: 75em) {
   html {
     font-size: 8px !important;
   }
@@ -108,7 +82,7 @@
   }
 }
 
-@media all and (max-width: 69.99em) {
+@media all and (max-width: 70em) {
   html {
     font-size: 6px !important;
   }
@@ -139,13 +113,9 @@
   }
 }
 
-@media all and (max-width: 59.99em) {
+@media all and (max-width: 60em) {
   html {
     font-size: 5px !important;
-  }
-
-  h1 {
-    font-size: 400%;
   }
 
   h3 {
@@ -155,16 +125,21 @@
   .follow-up {
       height: 8rem;
       width: 100%;
+      text-align: left;
   }
   
   .appearingText {
-    display: inline;
+    position: absolute;
+    top: 35rem;
+    left: 12rem;
+    width: 75%;
     font-size: 225%;
+    padding: 0;
   }
 
   .aboutPanel {
     font-size: 225%;
-    min-height: 25rem;
+    min-height: 28rem;
   }
 
   #grassAndTrees {
@@ -175,6 +150,7 @@
   }
   
   .bottom {
+    min-height: 18rem;
     font-size: 225%;
   }
 }

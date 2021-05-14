@@ -85,10 +85,10 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
   .cloud#cloud1 {
-    left: 20rem;
+    left: 30%;
     top: 3rem; }
   .cloud#cloud2 {
-    left: 80rem;
+    left: 70%;
     top: 5rem; }
 
 .wind {
@@ -101,10 +101,10 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
   .wind#wind1 {
-    left: 31rem;
+    left: 40%;
     top: 3rem; }
   .wind#wind2 {
-    left: 91rem;
+    left: 80%;
     top: 5rem; }
 
 .opening {
@@ -135,7 +135,8 @@ h3 {
   -webkit-animation: enterFollowUp 1s linear 10.5s;
           animation: enterFollowUp 1s linear 10.5s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards; }
+          animation-fill-mode: forwards;
+  padding: 0 25%; }
 
 .grassAndTrees:hover + .aboutPanel {
   top: 0; }
@@ -158,7 +159,7 @@ h3 {
   min-height: 9rem;
   background-color: #D0D5DB;
   position: absolute;
-  top: -9rem;
+  top: -12rem;
   -webkit-transition: top 1s;
   transition: top 1s;
   z-index: 2;
@@ -242,7 +243,7 @@ p {
 
   .bottom {
     font-size: 125%; } }
-@media all and (max-width: 99.99em) {
+@media all and (max-width: 100em) {
   html {
     font-size: 10px !important; }
 
@@ -254,35 +255,15 @@ p {
 
   .bottom {
     font-size: 150%; } }
-@media all and (max-width: 89.99em) {
-  html {
-    font-size: 10px !important; }
-
-  .appearingText {
-    font-size: 150%; }
-
+@media all and (max-width: 90em) {
   .aboutPanel {
-    font-size: 150%;
     height: 10rem;
-    top: -10rem; }
-
-  .bottom {
-    font-size: 150%; } }
-@media all and (max-width: 79.99em) {
-  html {
-    font-size: 10px !important; }
-
-  .appearingText {
-    font-size: 150%; }
-
+    top: -13rem; } }
+@media all and (max-width: 80em) {
   .aboutPanel {
-    font-size: 150%;
     height: 12rem;
-    top: -12rem; }
-
-  .bottom {
-    font-size: 150%; } }
-@media all and (max-width: 74.99em) {
+    top: -14rem; } }
+@media all and (max-width: 75em) {
   html {
     font-size: 8px !important; }
 
@@ -308,7 +289,7 @@ p {
 
   .bottom {
     font-size: 180%; } }
-@media all and (max-width: 69.99em) {
+@media all and (max-width: 70em) {
   html {
     font-size: 6px !important; }
 
@@ -330,27 +311,29 @@ p {
 
   .bottom {
     font-size: 200%; } }
-@media all and (max-width: 59.99em) {
+@media all and (max-width: 60em) {
   html {
     font-size: 5px !important; }
-
-  h1 {
-    font-size: 400%; }
 
   h3 {
     font-size: 350%; }
 
   .follow-up {
     height: 8rem;
-    width: 100%; }
+    width: 100%;
+    text-align: left; }
 
   .appearingText {
-    display: inline;
-    font-size: 225%; }
+    position: absolute;
+    top: 35rem;
+    left: 12rem;
+    width: 75%;
+    font-size: 225%;
+    padding: 0; }
 
   .aboutPanel {
     font-size: 225%;
-    min-height: 25rem; }
+    min-height: 28rem; }
 
   #grassAndTrees {
     height: 18rem; }
@@ -358,4 +341,5 @@ p {
       position: relative; }
 
   .bottom {
+    min-height: 18rem;
     font-size: 225%; } }
