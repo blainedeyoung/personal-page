@@ -213,7 +213,7 @@ p {
   background-repeat: no-repeat;
   height: 15rem; }
   .bottom p {
-    padding: 3rem; }
+    padding: 3rem 3rem 0; }
   .bottom a {
     color: inherit;
     -webkit-transition: color 1s;
