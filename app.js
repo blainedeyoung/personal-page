@@ -12,10 +12,10 @@ function setFavicon() {
 add a hover to the grass and trees image which will
 make the information panel drop down
 */
-const grassAndTrees = document.getElementById("grassAndTrees");
+const grassAndTrees = document.getElementById("grass-and-trees");
 
 window.onload = setTimeout(() => {
-  grassAndTrees.setAttribute('class', 'grassAndTrees');
+  grassAndTrees.setAttribute('class', 'grass-and-trees');
 }, 11500);
 
 

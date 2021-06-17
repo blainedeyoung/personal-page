@@ -83,24 +83,24 @@ h3 {
   text-align: center;
 }
 
-.appearingText {
+.appearing-text {
   opacity: 0;
   animation: enterFollowUp 1s linear 10.5s;
   animation-fill-mode: forwards;
   padding: 0 25%;
 }
 
-.grassAndTrees:hover + .aboutPanel {
+.grass-and-trees:hover + .about-panel {
   top: 0;
 }
 
-#grassAndTrees {
+#grass-and-trees {
   display: block;
   height: 20rem;
   width: 100%;
 }
 
-.aboutPanel {
+.about-panel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,11 +117,11 @@ p {
   margin: 0;
 }
 
-.aboutPanelText {
+.about-panel-text {
   padding: 3rem !important;
 }
 
-.skillList {
+.skill-list {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 33% 33% 33%;
@@ -134,15 +134,15 @@ p {
   text-align: center;
 }
 
-.skillImage {
+.skill-image {
   height: 8rem;
   width: 8rem;
-  &#mongoDbLogo {
+  &#mongo-DB-logo {
     width: 12rem;
   }
 }
 
-.skillLabel {
+.skill-label {
   margin-top: 1rem;
 }
 
