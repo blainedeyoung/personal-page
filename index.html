@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  <!-- animation area at the top -->
   <div class="animation">
     <img src="images/sun.png" class="sun" />
     <img src="images/cloud1.png" class="cloud" id="cloud1" />
@@ -23,16 +24,20 @@
     <img src="images/cloud2.png" class="cloud" id="cloud2" />
     <img src="images/wind.png" class="wind" id="wind2" />
   </div>
+  <!-- introduction -->
   <div class="opening">
     <h1>Hi, I'm Blaine.</h1>
     <h3>I make websites.</h3>
   </div>
+  <!-- appears after animation ends -->
   <div class="follow-up">
     <p class="appearing-text">If you mouseover the image below, you'll find a hidden panel with more information about this site.
     If you're on a mobile device, that panel is directly below. Below that is a list of my skills.
     My contact information is at the bottom of the page along with a link to a gallery of my other projects.</p>
   </div>
+  <!-- image becomes hoverable after animation ends, then it reveals the about panel below -->
   <img src="images/grassAndTrees.png" id="grass-and-trees" />
+  <!-- about panel -->
   <div class="about-panel">
     <p class="about-panel-text">
       I made the images on this page myself in inkscape. I made the favicon with favicon.io.
@@ -43,6 +48,7 @@
       to my reserved EC2 instance which is serving this page.
     </p>
   </div>
+  <!-- grid of skills with illustrating icons -->
   <div class="skill-list">
     <figure class="skill">
       <i class="fab fa-html5 fa-8x"></i>
@@ -99,6 +105,7 @@
       </figcaption>
     </figure>
   </div>
+  <!-- farewell and nav links -->
   <footer class="bottom">
     <p>Thanks for visiting. This link will take you to a <a href="/gallery">Gallery</a> of my other projects.
       All of those projects are available on <a target="_blank" href="https://github.com/blainedeyoung/">Github</a>.
@@ -110,6 +117,7 @@
       May Shai-Hulud clear the path before you.
     </p>
   </footer>
+  
   <!-- fontawesome icons -->
   <script src="https://kit.fontawesome.com/758873896e.js" crossorigin="anonymous"></script>
   <script src="app.js" type="text/javascript"></script>
