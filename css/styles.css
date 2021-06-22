@@ -58,13 +58,10 @@
     opacity: 0; }
   to {
     opacity: 1; } }
-html {
-  font-family: sans-serif;
-  font-size: 16px;
-  overflow-x: hidden; }
-
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden; }
 
 .animation {
   height: 18rem;
@@ -174,7 +171,6 @@ p {
 .skill-list {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 33% 33% 33%;
   width: 99%;
   padding: 3rem; }
 
@@ -313,11 +309,6 @@ p {
 @media all and (max-width: 60em) {
   html {
     font-size: 5px !important; }
-
-  .wind#wind1 {
-    left: 48%; }
-  .wind#wind2 {
-    left: 88%; }
 
   h3 {
     font-size: 350%; }

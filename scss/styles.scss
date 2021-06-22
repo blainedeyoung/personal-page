@@ -1,14 +1,14 @@
+//I was experimenting with building the whole page to scale by defining all the sizes and distances with rem and changing the root font-size
+//I wasn't really pleased with the result.  It just meant I had to keep increasing the text sizes to make the text legible
+//I might go back and rework that sometime, but I got this working OK now so I guess I'll just leave it for the time being
+
 @import 'animations';
 @import 'mixins';
 
-html {
-  font-family: sans-serif;
-  font-size: 16px;
-  overflow-x: hidden;
-}
-
 body {
   margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .animation {
@@ -124,7 +124,6 @@ p {
 .skill-list {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 33% 33% 33%;
   width: 99%;
   padding: 3rem;
 }

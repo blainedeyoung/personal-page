@@ -2,7 +2,7 @@
   html {
     font-size: 12px !important;
   }
-  
+
   .appearing-text {
     font-size: 125%;
   }
@@ -10,12 +10,11 @@
   .about-panel {
     font-size: 125%;
   }
-  
+
   .bottom {
     font-size: 125%;
   }
 }
-
 @media all and (max-width: 100em) {
   html {
     font-size: 10px !important;
@@ -28,26 +27,23 @@
   .about-panel {
     font-size: 150%;
   }
-  
+
   .bottom {
     font-size: 150%;
   }
 }
-
 @media all and (max-width: 90em) {
   .about-panel {
     height: 10rem;
     top: -13rem;
   }
 }
-
 @media all and (max-width: 80em) {
   .about-panel {
     height: 12rem;
     top: -14rem;
   }
 }
-
 @media all and (max-width: 75em) {
   html {
     font-size: 8px !important;
@@ -76,12 +72,11 @@
   .grass-and-trees:hover + .about-panel {
     position: relative;
   }
-  
+
   .bottom {
     font-size: 180%;
   }
 }
-
 @media all and (max-width: 70em) {
   html {
     font-size: 6px !important;
@@ -107,37 +102,26 @@
   .grass-and-trees:hover + .about-panel {
     position: relative;
   }
-  
+
   .bottom {
     font-size: 200%;
   }
 }
-
 @media all and (max-width: 60em) {
   html {
     font-size: 5px !important;
   }
-  
-  .wind {
-    &#wind1 {
-      left: 48%;
-    }
-  
-    &#wind2 {
-      left: 88%;
-    }
-  }
-  
+
   h3 {
     font-size: 350%;
   }
 
   .follow-up {
-      height: 10rem;
-      width: 100%;
-      text-align: left;
+    height: 10rem;
+    width: 100%;
+    text-align: left;
   }
-  
+
   .appearing-text {
     position: absolute;
     top: 35rem;
@@ -154,18 +138,20 @@
 
   #grass-and-trees {
     height: 16rem;
+
     &:hover + .about-panel {
       position: relative;
     }
   }
-  
+
   .skill-list {
     padding: 0;
   }
-    
+
   .bottom {
     min-height: 20rem;
     font-size: 225%;
+
     & p {
       padding: 1rem;
     }
